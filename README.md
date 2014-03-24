@@ -18,7 +18,7 @@ A global function that generates color values for other modules. This component 
 
 ## Set up 
 
-Global color variables must first be set in Sass map called `$pallettes`. The `color-palette` function will then use this map to apply the right color values without having to add magic color values like `#333333`. This makes remembering color values much easier in large-scale projects.
+Global color variables must first be set in Sass map called `$pallettes`. The `color-palette` function will then use this map to apply the right color values without having to add magic color values like `#333333`. Hopefully this makes remembering color values much easier in large-scale projects.
 
 ~~~scss
 $palettes: (
