@@ -1,0 +1,18 @@
+// ==========================================================================
+// COLOR PALETTE FUNCTION
+// ==========================================================================
+// A global function that generates color values for other modules. 
+// This component is intended to ease the pain of setting color variables in Sass.
+//
+// Grabs the Sass source map $palette and gets color value from color key.
+//
+// Example:
+//
+// a {
+//     color: palette(yellow, light);
+// }
+//
+
+@function palette($palette, $tone: 'base') {
+    @return map-get(map-get($palettes, $palette), $tone);
+}
