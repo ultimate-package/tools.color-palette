@@ -18,12 +18,12 @@ A global function that generates color values for other modules. This component 
 
 ## Set up 
 
-Global color variables must first be set in Sass map called `$pallettes`. The `color-palette` function will then use this map to apply the right color values without having to add magic color values like `#333333`. This makes remembering color values much easier in large-scale projects.
+Global color variables must first be set in Sass map called `$pallettes`. The `color-palette` function will then use this map to apply the right color values without having to add magic color values like `#333333`. Hopefully this makes remembering color values much easier in large-scale projects.
 
 ~~~scss
 $palettes: (
     red: (
-        light: #992A2D,
+        base: #992A2D,
         dark: #AC0000
     ),
     grey: (
@@ -37,6 +37,9 @@ $palettes: (
     )
 );
 ~~~
+
+Each color in the Sass map requires a `base` color to be set for the `color-palette` function to work properly.
+
 
 ## Acknowledgements
 
