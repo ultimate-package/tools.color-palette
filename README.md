@@ -23,7 +23,7 @@ Global color variables must first be set in Sass map called `$pallettes`. The `c
 ~~~scss
 $palettes: (
     red: (
-        light: #992A2D,
+        base: #992A2D,
         dark: #AC0000
     ),
     grey: (
@@ -37,6 +37,9 @@ $palettes: (
     )
 );
 ~~~
+
+Each color in the Sass map requires a `base` color to be set for the `color-palette` function to work properly.
+
 
 ## Acknowledgements
 
