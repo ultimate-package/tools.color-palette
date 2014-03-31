@@ -1,0 +1,24 @@
+{
+  "name": "tools.color-palette",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ultimate-package/tools.color-palette",
+  "authors": [
+    "Tom Davies <tom@erskinedesign.com",
+    "Robin Rendle <robin@erskinedesign.com"
+  ],
+  "description": "A global function that generates color values for other modules.",
+  "main": "_tools.color-palette.scss",
+  "keywords": [
+    "colors",
+    "sass",
+    "oocss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
