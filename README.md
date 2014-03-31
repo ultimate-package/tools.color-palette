@@ -15,6 +15,11 @@ A global function that generates color values for other modules. This component 
 }
 ~~~
 
+## Installation 
+
+This module can be installed as a Bower package:
+
+    bower install ult-color-palette
 
 ## Set up 
 
